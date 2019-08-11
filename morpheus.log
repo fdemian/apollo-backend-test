@@ -1,0 +1,395 @@
+[I 190303 00:22:03 web:2246] 200 GET /api/config (127.0.0.1) 1.00ms
+[I 190303 00:22:03 web:2246] 200 GET /api/stories (127.0.0.1) 121.68ms
+[I 190303 00:22:03 web:2246] 200 GET /api/categories (127.0.0.1) 10.96ms
+[I 190303 00:22:14 web:2246] 200 GET /api/config (127.0.0.1) 1.02ms
+[E 190303 00:22:15 web:1788] Uncaught exception GET /%3Canonymous%3E (127.0.0.1)
+    HTTPServerRequest(protocol='https', host='localhost:8888', method='GET', uri='/%3Canonymous%3E', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "C:\Users\rulo\Projects\morpheus-api\api\routes\Index.py", line 9, in get
+        self.render(index_dir)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 856, in render
+        html = self.render_string(template_name, **kwargs)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1002, in render_string
+        t = loader.load(template_name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 445, in load
+        self.templates[name] = self._create_template(name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 476, in _create_template
+        with open(path, "rb") as f:
+    FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\rulo\\Projects\\morpheus-api\\api\\routes\\../../static/index.html'
+[E 190303 00:22:15 web:2246] 500 GET /%3Canonymous%3E (127.0.0.1) 22.94ms
+[E 190303 00:22:15 web:1788] Uncaught exception GET /redux-saga/core/dist/redux-saga-core.esm.js (127.0.0.1)
+    HTTPServerRequest(protocol='https', host='localhost:8888', method='GET', uri='/redux-saga/core/dist/redux-saga-core.esm.js', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "C:\Users\rulo\Projects\morpheus-api\api\routes\Index.py", line 9, in get
+        self.render(index_dir)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 856, in render
+        html = self.render_string(template_name, **kwargs)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1002, in render_string
+        t = loader.load(template_name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 445, in load
+        self.templates[name] = self._create_template(name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 476, in _create_template
+        with open(path, "rb") as f:
+    FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\rulo\\Projects\\morpheus-api\\api\\routes\\../../static/index.html'
+[E 190303 00:22:15 web:2246] 500 GET /redux-saga/core/dist/redux-saga-core.esm.js (127.0.0.1) 2.02ms
+[E 190303 00:22:15 web:1788] Uncaught exception GET /%3Canonymous%3E (127.0.0.1)
+    HTTPServerRequest(protocol='https', host='localhost:8888', method='GET', uri='/%3Canonymous%3E', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "C:\Users\rulo\Projects\morpheus-api\api\routes\Index.py", line 9, in get
+        self.render(index_dir)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 856, in render
+        html = self.render_string(template_name, **kwargs)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1002, in render_string
+        t = loader.load(template_name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 445, in load
+        self.templates[name] = self._create_template(name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 476, in _create_template
+        with open(path, "rb") as f:
+    FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\rulo\\Projects\\morpheus-api\\api\\routes\\../../static/index.html'
+[E 190303 00:22:15 web:2246] 500 GET /%3Canonymous%3E (127.0.0.1) 1.00ms
+[E 190303 00:22:15 web:1788] Uncaught exception GET /redux-saga/core/dist/redux-saga-core.esm.js (127.0.0.1)
+    HTTPServerRequest(protocol='https', host='localhost:8888', method='GET', uri='/redux-saga/core/dist/redux-saga-core.esm.js', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "C:\Users\rulo\Projects\morpheus-api\api\routes\Index.py", line 9, in get
+        self.render(index_dir)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 856, in render
+        html = self.render_string(template_name, **kwargs)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1002, in render_string
+        t = loader.load(template_name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 445, in load
+        self.templates[name] = self._create_template(name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 476, in _create_template
+        with open(path, "rb") as f:
+    FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\rulo\\Projects\\morpheus-api\\api\\routes\\../../static/index.html'
+[E 190303 00:22:15 web:2246] 500 GET /redux-saga/core/dist/redux-saga-core.esm.js (127.0.0.1) 0.00ms
+[I 190303 00:23:21 web:2246] 200 GET /api/config (127.0.0.1) 0.99ms
+[E 190303 00:23:21 web:1788] Uncaught exception GET /redux-saga/core/dist/redux-saga-core.esm.js (127.0.0.1)
+    HTTPServerRequest(protocol='https', host='localhost:8888', method='GET', uri='/redux-saga/core/dist/redux-saga-core.esm.js', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "C:\Users\rulo\Projects\morpheus-api\api\routes\Index.py", line 9, in get
+        self.render(index_dir)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 856, in render
+        html = self.render_string(template_name, **kwargs)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1002, in render_string
+        t = loader.load(template_name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 445, in load
+        self.templates[name] = self._create_template(name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 476, in _create_template
+        with open(path, "rb") as f:
+    FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\rulo\\Projects\\morpheus-api\\api\\routes\\../../static/index.html'
+[E 190303 00:23:21 web:2246] 500 GET /redux-saga/core/dist/redux-saga-core.esm.js (127.0.0.1) 1.88ms
+[E 190303 00:23:21 web:1788] Uncaught exception GET /%3Canonymous%3E (127.0.0.1)
+    HTTPServerRequest(protocol='https', host='localhost:8888', method='GET', uri='/%3Canonymous%3E', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "C:\Users\rulo\Projects\morpheus-api\api\routes\Index.py", line 9, in get
+        self.render(index_dir)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 856, in render
+        html = self.render_string(template_name, **kwargs)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1002, in render_string
+        t = loader.load(template_name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 445, in load
+        self.templates[name] = self._create_template(name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 476, in _create_template
+        with open(path, "rb") as f:
+    FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\rulo\\Projects\\morpheus-api\\api\\routes\\../../static/index.html'
+[E 190303 00:23:21 web:2246] 500 GET /%3Canonymous%3E (127.0.0.1) 1.00ms
+[E 190303 00:23:22 web:1788] Uncaught exception GET /%3Canonymous%3E (127.0.0.1)
+    HTTPServerRequest(protocol='https', host='localhost:8888', method='GET', uri='/%3Canonymous%3E', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "C:\Users\rulo\Projects\morpheus-api\api\routes\Index.py", line 9, in get
+        self.render(index_dir)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 856, in render
+        html = self.render_string(template_name, **kwargs)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1002, in render_string
+        t = loader.load(template_name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 445, in load
+        self.templates[name] = self._create_template(name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 476, in _create_template
+        with open(path, "rb") as f:
+    FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\rulo\\Projects\\morpheus-api\\api\\routes\\../../static/index.html'
+[E 190303 00:23:22 web:2246] 500 GET /%3Canonymous%3E (127.0.0.1) 1.00ms
+[E 190303 00:23:22 web:1788] Uncaught exception GET /redux-saga/core/dist/redux-saga-core.esm.js (127.0.0.1)
+    HTTPServerRequest(protocol='https', host='localhost:8888', method='GET', uri='/redux-saga/core/dist/redux-saga-core.esm.js', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "C:\Users\rulo\Projects\morpheus-api\api\routes\Index.py", line 9, in get
+        self.render(index_dir)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 856, in render
+        html = self.render_string(template_name, **kwargs)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1002, in render_string
+        t = loader.load(template_name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 445, in load
+        self.templates[name] = self._create_template(name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 476, in _create_template
+        with open(path, "rb") as f:
+    FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\rulo\\Projects\\morpheus-api\\api\\routes\\../../static/index.html'
+[E 190303 00:23:22 web:2246] 500 GET /redux-saga/core/dist/redux-saga-core.esm.js (127.0.0.1) 1.00ms
+[I 190303 00:30:46 web:2246] 200 GET /api/config (127.0.0.1) 1.00ms
+[E 190303 00:30:46 web:1788] Uncaught exception GET /%3Canonymous%3E (127.0.0.1)
+    HTTPServerRequest(protocol='https', host='localhost:8888', method='GET', uri='/%3Canonymous%3E', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "C:\Users\rulo\Projects\morpheus-api\api\routes\Index.py", line 9, in get
+        self.render(index_dir)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 856, in render
+        html = self.render_string(template_name, **kwargs)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1002, in render_string
+        t = loader.load(template_name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 445, in load
+        self.templates[name] = self._create_template(name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 476, in _create_template
+        with open(path, "rb") as f:
+    FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\rulo\\Projects\\morpheus-api\\api\\routes\\../../static/index.html'
+[E 190303 00:30:46 web:2246] 500 GET /%3Canonymous%3E (127.0.0.1) 1.99ms
+[E 190303 00:30:46 web:1788] Uncaught exception GET /redux-saga/core/dist/redux-saga-core.esm.js (127.0.0.1)
+    HTTPServerRequest(protocol='https', host='localhost:8888', method='GET', uri='/redux-saga/core/dist/redux-saga-core.esm.js', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "C:\Users\rulo\Projects\morpheus-api\api\routes\Index.py", line 9, in get
+        self.render(index_dir)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 856, in render
+        html = self.render_string(template_name, **kwargs)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1002, in render_string
+        t = loader.load(template_name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 445, in load
+        self.templates[name] = self._create_template(name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 476, in _create_template
+        with open(path, "rb") as f:
+    FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\rulo\\Projects\\morpheus-api\\api\\routes\\../../static/index.html'
+[E 190303 00:30:46 web:2246] 500 GET /redux-saga/core/dist/redux-saga-core.esm.js (127.0.0.1) 2.00ms
+[E 190303 00:30:47 web:1788] Uncaught exception GET /redux-saga/core/dist/redux-saga-core.esm.js (127.0.0.1)
+    HTTPServerRequest(protocol='https', host='localhost:8888', method='GET', uri='/redux-saga/core/dist/redux-saga-core.esm.js', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "C:\Users\rulo\Projects\morpheus-api\api\routes\Index.py", line 9, in get
+        self.render(index_dir)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 856, in render
+        html = self.render_string(template_name, **kwargs)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1002, in render_string
+        t = loader.load(template_name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 445, in load
+        self.templates[name] = self._create_template(name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 476, in _create_template
+        with open(path, "rb") as f:
+    FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\rulo\\Projects\\morpheus-api\\api\\routes\\../../static/index.html'
+[E 190303 00:30:47 web:2246] 500 GET /redux-saga/core/dist/redux-saga-core.esm.js (127.0.0.1) 1.00ms
+[E 190303 00:30:47 web:1788] Uncaught exception GET /%3Canonymous%3E (127.0.0.1)
+    HTTPServerRequest(protocol='https', host='localhost:8888', method='GET', uri='/%3Canonymous%3E', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "C:\Users\rulo\Projects\morpheus-api\api\routes\Index.py", line 9, in get
+        self.render(index_dir)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 856, in render
+        html = self.render_string(template_name, **kwargs)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1002, in render_string
+        t = loader.load(template_name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 445, in load
+        self.templates[name] = self._create_template(name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 476, in _create_template
+        with open(path, "rb") as f:
+    FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\rulo\\Projects\\morpheus-api\\api\\routes\\../../static/index.html'
+[E 190303 00:30:47 web:2246] 500 GET /%3Canonymous%3E (127.0.0.1) 1.00ms
+[I 190303 00:31:02 web:2246] 200 GET /api/config (127.0.0.1) 0.00ms
+[E 190303 00:31:02 web:1788] Uncaught exception GET /redux-saga/core/dist/redux-saga-core.esm.js (127.0.0.1)
+    HTTPServerRequest(protocol='https', host='localhost:8888', method='GET', uri='/redux-saga/core/dist/redux-saga-core.esm.js', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "C:\Users\rulo\Projects\morpheus-api\api\routes\Index.py", line 9, in get
+        self.render(index_dir)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 856, in render
+        html = self.render_string(template_name, **kwargs)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1002, in render_string
+        t = loader.load(template_name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 445, in load
+        self.templates[name] = self._create_template(name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 476, in _create_template
+        with open(path, "rb") as f:
+    FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\rulo\\Projects\\morpheus-api\\api\\routes\\../../static/index.html'
+[E 190303 00:31:02 web:2246] 500 GET /redux-saga/core/dist/redux-saga-core.esm.js (127.0.0.1) 1.00ms
+[E 190303 00:31:02 web:1788] Uncaught exception GET /%3Canonymous%3E (127.0.0.1)
+    HTTPServerRequest(protocol='https', host='localhost:8888', method='GET', uri='/%3Canonymous%3E', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "C:\Users\rulo\Projects\morpheus-api\api\routes\Index.py", line 9, in get
+        self.render(index_dir)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 856, in render
+        html = self.render_string(template_name, **kwargs)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1002, in render_string
+        t = loader.load(template_name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 445, in load
+        self.templates[name] = self._create_template(name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 476, in _create_template
+        with open(path, "rb") as f:
+    FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\rulo\\Projects\\morpheus-api\\api\\routes\\../../static/index.html'
+[E 190303 00:31:02 web:2246] 500 GET /%3Canonymous%3E (127.0.0.1) 2.00ms
+[E 190303 00:31:02 web:1788] Uncaught exception GET /%3Canonymous%3E (127.0.0.1)
+    HTTPServerRequest(protocol='https', host='localhost:8888', method='GET', uri='/%3Canonymous%3E', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "C:\Users\rulo\Projects\morpheus-api\api\routes\Index.py", line 9, in get
+        self.render(index_dir)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 856, in render
+        html = self.render_string(template_name, **kwargs)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1002, in render_string
+        t = loader.load(template_name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 445, in load
+        self.templates[name] = self._create_template(name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 476, in _create_template
+        with open(path, "rb") as f:
+    FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\rulo\\Projects\\morpheus-api\\api\\routes\\../../static/index.html'
+[E 190303 00:31:02 web:2246] 500 GET /%3Canonymous%3E (127.0.0.1) 1.00ms
+[E 190303 00:31:03 web:1788] Uncaught exception GET /redux-saga/core/dist/redux-saga-core.esm.js (127.0.0.1)
+    HTTPServerRequest(protocol='https', host='localhost:8888', method='GET', uri='/redux-saga/core/dist/redux-saga-core.esm.js', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "C:\Users\rulo\Projects\morpheus-api\api\routes\Index.py", line 9, in get
+        self.render(index_dir)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 856, in render
+        html = self.render_string(template_name, **kwargs)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1002, in render_string
+        t = loader.load(template_name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 445, in load
+        self.templates[name] = self._create_template(name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 476, in _create_template
+        with open(path, "rb") as f:
+    FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\rulo\\Projects\\morpheus-api\\api\\routes\\../../static/index.html'
+[E 190303 00:31:03 web:2246] 500 GET /redux-saga/core/dist/redux-saga-core.esm.js (127.0.0.1) 1.00ms
+[I 190303 00:32:41 web:2246] 200 GET /api/config (127.0.0.1) 1.00ms
+[E 190303 00:32:42 web:1788] Uncaught exception GET /%3Canonymous%3E (127.0.0.1)
+    HTTPServerRequest(protocol='https', host='localhost:8888', method='GET', uri='/%3Canonymous%3E', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "C:\Users\rulo\Projects\morpheus-api\api\routes\Index.py", line 9, in get
+        self.render(index_dir)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 856, in render
+        html = self.render_string(template_name, **kwargs)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1002, in render_string
+        t = loader.load(template_name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 445, in load
+        self.templates[name] = self._create_template(name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 476, in _create_template
+        with open(path, "rb") as f:
+    FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\rulo\\Projects\\morpheus-api\\api\\routes\\../../static/index.html'
+[E 190303 00:32:42 web:2246] 500 GET /%3Canonymous%3E (127.0.0.1) 1.00ms
+[E 190303 00:32:42 web:1788] Uncaught exception GET /redux-saga/core/dist/redux-saga-core.esm.js (127.0.0.1)
+    HTTPServerRequest(protocol='https', host='localhost:8888', method='GET', uri='/redux-saga/core/dist/redux-saga-core.esm.js', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "C:\Users\rulo\Projects\morpheus-api\api\routes\Index.py", line 9, in get
+        self.render(index_dir)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 856, in render
+        html = self.render_string(template_name, **kwargs)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1002, in render_string
+        t = loader.load(template_name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 445, in load
+        self.templates[name] = self._create_template(name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 476, in _create_template
+        with open(path, "rb") as f:
+    FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\rulo\\Projects\\morpheus-api\\api\\routes\\../../static/index.html'
+[E 190303 00:32:42 web:2246] 500 GET /redux-saga/core/dist/redux-saga-core.esm.js (127.0.0.1) 2.00ms
+[E 190303 00:32:42 web:1788] Uncaught exception GET /%3Canonymous%3E (127.0.0.1)
+    HTTPServerRequest(protocol='https', host='localhost:8888', method='GET', uri='/%3Canonymous%3E', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "C:\Users\rulo\Projects\morpheus-api\api\routes\Index.py", line 9, in get
+        self.render(index_dir)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 856, in render
+        html = self.render_string(template_name, **kwargs)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1002, in render_string
+        t = loader.load(template_name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 445, in load
+        self.templates[name] = self._create_template(name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 476, in _create_template
+        with open(path, "rb") as f:
+    FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\rulo\\Projects\\morpheus-api\\api\\routes\\../../static/index.html'
+[E 190303 00:32:42 web:2246] 500 GET /%3Canonymous%3E (127.0.0.1) 2.00ms
+[E 190303 00:32:42 web:1788] Uncaught exception GET /redux-saga/core/dist/redux-saga-core.esm.js (127.0.0.1)
+    HTTPServerRequest(protocol='https', host='localhost:8888', method='GET', uri='/redux-saga/core/dist/redux-saga-core.esm.js', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "C:\Users\rulo\Projects\morpheus-api\api\routes\Index.py", line 9, in get
+        self.render(index_dir)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 856, in render
+        html = self.render_string(template_name, **kwargs)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\web.py", line 1002, in render_string
+        t = loader.load(template_name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 445, in load
+        self.templates[name] = self._create_template(name)
+      File "C:\Users\rulo\AppData\Local\Programs\Python\Python36\lib\site-packages\tornado\template.py", line 476, in _create_template
+        with open(path, "rb") as f:
+    FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\rulo\\Projects\\morpheus-api\\api\\routes\\../../static/index.html'
+[E 190303 00:32:42 web:2246] 500 GET /redux-saga/core/dist/redux-saga-core.esm.js (127.0.0.1) 2.00ms
+[I 190303 00:32:55 web:2246] 200 GET /api/config (127.0.0.1) 1.99ms
+[E 190303 00:32:55 web:2246] 500 POST /api/auth (127.0.0.1) 1.00ms
+[I 190303 00:32:55 web:2246] 200 GET /api/stories (127.0.0.1) 1.99ms
+[I 190303 00:32:55 web:2246] 200 GET /api/categories (127.0.0.1) 2.99ms
+[I 190303 00:33:03 web:2246] 200 GET /api/config (127.0.0.1) 0.00ms
+[I 190303 00:33:40 web:2246] 200 GET /api/config (127.0.0.1) 1.00ms
+[I 190303 00:34:43 web:2246] 200 GET /api/config (127.0.0.1) 1.00ms
+[I 190303 12:49:43 web:2246] 200 GET /api/config (127.0.0.1) 0.98ms
+[I 190303 12:49:44 web:2246] 200 GET /api/stories (127.0.0.1) 127.66ms
+[I 190303 12:49:44 web:2246] 200 GET /api/categories (127.0.0.1) 7.98ms
+[I 190303 12:54:25 web:2246] 200 GET /api/config (127.0.0.1) 0.00ms
+[I 190303 12:56:05 web:2246] 200 GET /api/config (127.0.0.1) 0.98ms
+[I 190303 12:56:05 web:2246] 200 GET /api/stories (127.0.0.1) 2.99ms
+[I 190303 12:56:05 web:2246] 200 GET /api/categories (127.0.0.1) 0.99ms
+[I 190303 12:56:15 web:2246] 200 GET /api/config (127.0.0.1) 1.00ms
+[I 190303 12:56:33 web:2246] 200 GET /api/config (127.0.0.1) 0.00ms
+[I 190303 12:57:21 web:2246] 200 GET /api/config (127.0.0.1) 1.00ms
+[W 190303 12:57:50 iostream:1407] SSL Error on 968 ('::1', 52442, 0, 0): [SSL: HTTP_REQUEST] http request (_ssl.c:833)
+[I 190303 12:57:54 web:2246] 200 GET /api/config (127.0.0.1) 1.00ms
+[I 190303 12:58:02 web:2246] 200 GET /api/config (127.0.0.1) 1.00ms
+[E 190303 12:58:03 web:2246] 500 POST /api/auth (127.0.0.1) 3.02ms
+[I 190303 12:58:03 web:2246] 200 GET /api/stories (127.0.0.1) 104.73ms
+[I 190303 12:58:03 web:2246] 200 GET /api/categories (127.0.0.1) 5.98ms
+[I 190303 13:00:09 web:2246] 200 GET /api/config (127.0.0.1) 1.99ms
+[I 190303 13:00:09 web:2246] 200 GET /api/stories (127.0.0.1) 106.72ms
+[I 190303 13:00:09 web:2246] 200 GET /api/categories (127.0.0.1) 7.98ms
+[I 190303 13:00:15 web:2246] 200 GET /api/config (127.0.0.1) 1.00ms
+[I 190303 13:03:17 web:2246] 200 GET /api/config (127.0.0.1) 0.00ms
+[I 190303 13:03:18 web:2246] 200 GET /api/config (127.0.0.1) 1.00ms
+[I 190303 13:03:52 web:2246] 200 GET /api/config (127.0.0.1) 1.00ms
+[I 190303 13:03:52 web:2246] 200 GET /api/config (127.0.0.1) 1.00ms
+[I 190303 13:05:08 web:2246] 200 GET /api/config (127.0.0.1) 0.00ms
+[I 190303 13:05:10 web:2246] 200 GET /api/config (127.0.0.1) 0.00ms
+[E 190303 13:05:10 web:2246] 500 POST /api/auth (127.0.0.1) 0.00ms
+[I 190303 13:05:10 web:2246] 200 GET /api/stories (127.0.0.1) 2.00ms
+[I 190303 13:05:10 web:2246] 200 GET /api/categories (127.0.0.1) 1.00ms
+[I 190303 13:05:24 web:2246] 200 GET /api/config (127.0.0.1) 0.00ms
+[E 190303 13:05:24 web:2246] 500 POST /api/auth (127.0.0.1) 1.00ms
+[I 190303 13:05:25 web:2246] 200 GET /api/stories (127.0.0.1) 1.02ms
+[I 190303 13:05:25 web:2246] 200 GET /api/categories (127.0.0.1) 1.97ms
+[I 190303 13:06:26 web:2246] 200 GET /api/config (127.0.0.1) 1.00ms
+[I 190303 13:06:26 web:2246] 200 GET /api/stories (127.0.0.1) 101.73ms
+[I 190303 13:06:26 web:2246] 200 GET /api/categories (127.0.0.1) 6.98ms
+[I 190303 13:06:55 web:2246] 200 GET /api/config (127.0.0.1) 1.00ms
+[E 190303 13:06:55 web:2246] 500 POST /api/auth (127.0.0.1) 1.02ms
+[I 190303 13:06:55 web:2246] 200 GET /api/stories (127.0.0.1) 2.00ms
+[I 190303 13:06:55 web:2246] 200 GET /api/categories (127.0.0.1) 0.99ms
