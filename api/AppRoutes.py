@@ -7,21 +7,21 @@ import json
 from tornado.web import RequestHandler
 from ariadne import QueryType, MutationType, graphql_sync, make_executable_schema, upload_scalar, combine_multipart_data
 
-type_defs = """      
+type_defs = """
       scalar Upload
-      
+
       type UploadImagePayload {
         status: Boolean!,
         path: String!,
         mime_type: String!
       }
-      
+
       type Query {
         hello: String!
       }
-      
-      type Mutation {        
-        uploadUserImage(file: Upload!): UploadImagePayload                
+
+      type Mutation {
+        uploadUserImage(file: Upload!): UploadImagePayload
       }
   """
 
@@ -103,9 +103,9 @@ def get_app_routes(static_path, notifications_enabled):
     routes = [
        (r'/graphql', GraphqlServer),
        (r'/graphql/(.*)', GraphqlServer),
-       (r"/static/(.*)", StaticFileHandler, {"path": static_path}),
-       (r"/(manifest\.json)", StaticFileHandler, {"path": static_path}),
-       (r"/(favicon\.ico)", StaticFileHandler, {"path": static_path}),
+       (r"/static/(.*)", StaticFileHandler, { "path": static_path }),
+       (r"/(manifest\.json)", StaticFileHandler, { "path": static_path }),
+       (r"/(favicon\.ico)", StaticFileHandler, { "path": static_path }),
     ]
 
     return routes
